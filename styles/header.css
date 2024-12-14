@@ -2,5 +2,35 @@
     display: flex;
     margin: auto;
     max-width: 1240px;
-    padding: 20px;
+    padding: var(--padding-size);
+}
+
+.header nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header nav a {
+    color: var(--main-clr);
+    text-decoration: none;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+}
+
+.header .header-logo {
+    display: flex;
+    align-items: center;
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.header .header-logo span {
+    color: var(--main-clr);
+    display: none;
 }
