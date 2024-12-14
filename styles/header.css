@@ -2,7 +2,7 @@
     display: flex;
     margin: auto;
     max-width: 1240px;
-    padding: var(--padding-size);
+    padding: var(--space-size);
 }
 
 .header nav {

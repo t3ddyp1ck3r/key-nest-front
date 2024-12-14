@@ -1,0 +1,34 @@
+.card {
+    background-color: var(--main-clr);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 22px;
+    min-height: 255px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+.card h3 {
+    bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    left: 18px;
+    max-width: 90%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.card::after {
+    background: #fcfcfc;
+    background: linear-gradient(180deg, hsla(0, 0%, 99%, 0), #000);
+    content: "";
+    height: 100%;
+    mix-blend-mode: darken;
+    opacity: .6;
+    position: absolute;
+    width: 100%;
+}

@@ -1,6 +1,7 @@
 :root {
     --font-clr: #fff;
-    --padding-size: 1em;
+    --space-size: 1em;
     --main-clr: #DB2777;
+    --max-page-width: 1240px;
 
 }

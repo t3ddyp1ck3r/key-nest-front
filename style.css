@@ -2,14 +2,44 @@
 @import url("./styles/variables.css");
 @import url('./styles/header.css');
 @import url("./styles/home-banner.css");
+@import url("./styles/card.css");
 
 
 
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
     color: var(--font-clr);
 }
 
 img {
     max-width: 100%;
+}
+
+main {
+    margin: auto;
+    max-width: var(--max-page-width);
+    padding-left: var(--space-size);
+    padding-right: var(--space-size);
+}
+
+
+.cards-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 100%;
+}
+
+.cards-container a {
+    max-width: 340px;
+    min-width: 320px;
+    width: 100%;
+    display: block;
 }
