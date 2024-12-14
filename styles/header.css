@@ -15,6 +15,11 @@
 .header nav a {
     color: var(--main-clr);
     text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header nav a.active {
+    text-decoration: underline;
 }
 
 .header nav img {
