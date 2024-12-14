@@ -1,7 +1,8 @@
 :root {
-    --font-clr: #fff;
-    --space-size: 1em;
+    --font-clr: #e2e2e2;
     --main-clr: #DB2777;
+    --footer-bg: #0C0206;
+    --space-size: 1em;
     --max-page-width: 1240px;
 
 }
