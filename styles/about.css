@@ -1,0 +1,17 @@
+.about section {
+    position: relative;
+
+}
+
+.about section::after {
+    background: #fcfcfc;
+    background: linear-gradient(180deg, hsla(0, 0%, 99%, 0), #000000ab);
+    content: "";
+    height: 99%;
+    content: "";
+     mix-blend-mode: darken; 
+    position: absolute;
+    width: 100%;
+    inset: 0;
+
+}
