@@ -17,6 +17,10 @@
     text-decoration: none;
 }
 
+.header nav img {
+    max-width: 41px;
+}
+
 .header nav ul {
     display: flex;
     gap: 1em;
