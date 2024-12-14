@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 @import url("./styles/variables.css");
 @import url('./styles/header.css');
+@import url("./styles/home-banner.css");
 
 
 
@@ -10,5 +11,5 @@
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }

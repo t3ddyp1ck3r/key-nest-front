@@ -1,0 +1,9 @@
+.home-banner {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    max-height: 111px;
+    overflow: hidden;
+    position: relative;
+}
