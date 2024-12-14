@@ -18,3 +18,9 @@
 .footer img {
     max-width: 28px;
 }
+
+.footer p {
+    margin-top: .5em;
+    font-size: 12px;
+    transform: translateX(-5px);
+}
