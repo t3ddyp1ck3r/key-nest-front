@@ -1,5 +1,6 @@
 .about section {
     position: relative;
+    margin-bottom: 1em;
 
 }
 
@@ -9,7 +10,7 @@
     content: "";
     height: 99%;
     content: "";
-     mix-blend-mode: darken; 
+    mix-blend-mode: darken;
     position: absolute;
     width: 100%;
     inset: 0;
