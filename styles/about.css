@@ -33,7 +33,7 @@
 
 
 .about section::after {
-    background: #fcfcfc;
+    background: #fcfcfc69;
     background: linear-gradient(180deg, hsla(0, 0%, 99%, 0), #000000ab);
     content: "";
     height: 99%;
@@ -43,4 +43,11 @@
     width: 100%;
     inset: 0;
 
+}
+
+/* larger screens */
+@media only screen and (min-width: 768px) {
+    .about article{
+        font-size: 22px;
+    }
 }
