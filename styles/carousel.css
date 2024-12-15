@@ -1,13 +1,28 @@
 .carousel {
     align-items: center;
     display: flex;
-    justify-content: center;
-    max-height: 305px;
-    min-height: 180px;
+    justify-content: space-between;
+    /* max-height: 305px; */
+    min-height: 240px;
     overflow: hidden;
+    position: relative;
+}
+
+.carousel .carousel-item {
+    position: absolute;
+    inset: 0;
 }
 
 .carousel img {
     aspect-ratio: 335/ 224;
     object-fit: cover;
+}
+
+.carousel button {
+    position: relative;
+    z-index: 10;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.281);
+    padding: .5em;
 }
