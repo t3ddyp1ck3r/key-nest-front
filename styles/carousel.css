@@ -1,0 +1,13 @@
+.carousel {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-height: 305px;
+    min-height: 180px;
+    overflow: hidden;
+}
+
+.carousel img {
+    aspect-ratio: 335/ 224;
+    object-fit: cover;
+}

@@ -6,6 +6,7 @@
 @import url("./styles/about.css");
 @import url("./styles/footer.css");
 @import url("./styles/accordion.css");
+@import url("./styles/carousel.css");
 
 * {
     box-sizing: border-box;
