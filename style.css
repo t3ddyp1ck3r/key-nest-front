@@ -24,7 +24,7 @@ main {
     max-width: var(--max-page-width);
     padding-left: var(--space-size);
     padding-right: var(--space-size);
-    min-height: 72dvh;
+    min-height: 81dvh;
 }
 
 
