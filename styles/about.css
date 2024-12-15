@@ -2,6 +2,17 @@
     position: relative;
 }
 
+.about article {
+    padding: 1em;
+    color: var(--footer-bg);
+    text-align: center;
+}
+
+.about h1 {
+    text-align: center;
+    color: var(--footer-bg);
+}
+
 .about-container {
     padding: var(--space-size);
 }
