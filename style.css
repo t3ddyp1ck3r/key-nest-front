@@ -62,7 +62,7 @@ main {
 }
 
 .apartment h2 {
-    color: var(--footer-bg);
+    color: var(--main-clr);
     font-size: 18px;
     font-weight: 500;
     grid-area: title;
@@ -70,7 +70,8 @@ main {
 }
 
 .apartment p {
-    color: var(--main-clr);
+
+    color: var(--footer-bg);
     font-size: 14px;
     grid-area: sub-title;
     margin-block-start: 0;
@@ -106,6 +107,29 @@ main {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
+
+.apartment .greater-container {
+    align-items: center;
+    display: flex;
+    gap: 11px;
+    justify-content: flex-end;
+}
+
+.apartment .greater-container span {
+    color: var(--main-clr);
+    display: block;
+    font-size: 12px;
+    max-width: 60px;
+    text-align: right;
+    word-break: break-word;
+}
+
+.apartment .greater-container img {
+    border-radius: 50%;
+    max-width: 32px;
+}
+
 
 /* larger screens */
 @media only screen and (min-width: 768px) {}
