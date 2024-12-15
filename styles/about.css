@@ -1,7 +1,9 @@
 .about section {
     position: relative;
-    margin-bottom: 1em;
+}
 
+.about-container {
+    padding: var(--space-size);
 }
 
 .about section::after {
