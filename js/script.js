@@ -5,9 +5,7 @@ const accordionAboutHeaderNodes = document.querySelectorAll(
 
 accordionAboutHeaderNodes.forEach((btn) => {
 	btn.addEventListener("click", function () {
-		const accordionBody = this.parentElement.querySelector(
-			".accordion-about-body"
-		)
+		const accordionBody = this.parentElement
 		accordionBody.classList.toggle("active")
 	})
 })
