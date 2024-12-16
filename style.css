@@ -173,6 +173,7 @@ main {
     transform: translateY(-5px);
     transition: all .2s ease-out;
     z-index: -1;
+    line-height: 1.5;
 }
 
 .accordion-item {
@@ -183,6 +184,7 @@ main {
 .accordion-body li {
     color: var(--footer-bg);
     list-style: none;
+    padding-top: .5em;
 }
 
 .accordion-item.active .accordion-body {

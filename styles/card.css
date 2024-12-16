@@ -9,6 +9,15 @@
     width: 100%;
 }
 
+.card img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+
 
 .card h3 {
     bottom: 15px;
