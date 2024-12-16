@@ -26,3 +26,10 @@
     background-color: rgba(128, 128, 128, 0.281);
     padding: .5em;
 }
+
+/* larger screens */
+@media only screen and (min-width: 768px) {
+    .carousel {
+        min-height: 410px;
+    }
+}
