@@ -130,6 +130,52 @@ main {
     max-width: 32px;
 }
 
+.accordion-header {
+    background-color: var(--main-clr);
+    font-size: 13px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.accordion-header button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.accordion-body {
+    background-color: #f6f6f6;
+    color: var(--footer-bg);
+    font-size: 13px;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0 16px;
+    position: relative;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    transition: all .2s ease-out;
+    z-index: -1;
+}
+
+.accordion-item.active .accordion-body {
+    max-height: 86px;
+    padding: 18px 16px 12px;
+}
+
 
 /* larger screens */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .apartment .apartment-accordion-cont {
+        display: flex;
+        gap: 12px;
+        justify-content: space-between;
+    }
+}
