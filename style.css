@@ -70,11 +70,11 @@ main {
 }
 
 .apartment p {
-
     color: var(--footer-bg);
     font-size: 14px;
     grid-area: sub-title;
     margin-block-start: 0;
+    margin-bottom: 1em;
 }
 
 .apartment .tags-container {
@@ -141,6 +141,10 @@ main {
     cursor: pointer;
 }
 
+.accordion-header h2{
+    font-weight: 400;
+}
+
 .accordion-header button {
     background-color: transparent;
     border: none;
@@ -189,10 +193,15 @@ main {
 
 /* larger screens */
 @media only screen and (min-width: 768px) {
+    .apartment {
+        grid-template-areas:
+            "title greater"
+            "sub-title greater"
+            "tags rating";
+    }
+
     .apartment-accordion-container {
         flex-direction: row;
         justify-content: space-between;
     }
-
-
 }
