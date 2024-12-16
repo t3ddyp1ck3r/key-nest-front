@@ -141,7 +141,7 @@ main {
     cursor: pointer;
 }
 
-.accordion-header h2{
+.accordion-header h2 {
     font-weight: 400;
 }
 
@@ -178,6 +178,7 @@ main {
 .accordion-item {
     max-width: 480px;
     width: 100%;
+    margin: auto;
 }
 
 .accordion-body li {
@@ -203,5 +204,6 @@ main {
     .apartment-accordion-container {
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 1em;
     }
 }
