@@ -32,4 +32,12 @@
     .carousel {
         min-height: 410px;
     }
+
+    .carousel button {
+        padding: 2.5em 1.5em;
+    }
+
+    .carousel button img {
+        min-width: 40px;
+    }
 }
