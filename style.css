@@ -151,6 +151,12 @@ main {
 }
 
 
+.apartment-accordion-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 .accordion-body {
     background-color: #f6f6f6;
     color: var(--footer-bg);
@@ -165,7 +171,12 @@ main {
     z-index: -1;
 }
 
-.accordion-body li{
+.accordion-item {
+    max-width: 480px;
+    width: 100%;
+}
+
+.accordion-body li {
     color: var(--footer-bg);
     list-style: none;
 }
@@ -178,9 +189,10 @@ main {
 
 /* larger screens */
 @media only screen and (min-width: 768px) {
-    .apartment .apartment-accordion-cont {
-        display: flex;
-        gap: 12px;
+    .apartment-accordion-container {
+        flex-direction: row;
         justify-content: space-between;
     }
+
+
 }
