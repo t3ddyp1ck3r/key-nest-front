@@ -7,6 +7,7 @@
 @import url("./styles/footer.css");
 @import url("./styles/accordion.css");
 @import url("./styles/carousel.css");
+@import url("./styles/related-section.css");
 
 * {
     box-sizing: border-box;
