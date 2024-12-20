@@ -24,7 +24,7 @@
 			"Frigo",
 			"WIFI"
 		],
-		"tags": ["Batignolle", "Montmartre"]
+		"tags": ["Batignolle", "Montmartre", "Maison"]
 	},
 	{
 		"id": "b9123946",
@@ -51,7 +51,8 @@
 			"Machine à laver",
 			"Wi-fi",
 			"Cuisine équipée",
-			"Télévision"
+			"Télévision",
+			"Commerces"
 		],
 		"tags": ["Canal Saint Martin", "République", "Appartement"]
 	},
@@ -148,7 +149,7 @@
 		"rating": "5",
 		"location": "Ile de France - Paris 18e",
 		"equipments": ["Chambre Séparée", "Parking"],
-		"tags": ["Montmartre", "Culture", "Charme"]
+		"tags": ["Montmartre", "Culture", "Charme", "Studio"]
 	},
 	{
 		"id": "b4c67936",
@@ -175,7 +176,7 @@
 			"Bureau",
 			"Parking"
 		],
-		"tags": ["Transports", "Cheap", "18ème"]
+		"tags": ["Transports", "Cheap", "18ème", "Studio"]
 	},
 	{
 		"id": "bc6f7112",
@@ -204,7 +205,7 @@
 			"Lit King Size",
 			"Ascenseur"
 		],
-		"tags": ["Luxe", "Tour Eiffel", "T3", "6ème"]
+		"tags": ["Luxe", "Tour Eiffel", "T3", "6ème", "Louvre"]
 	},
 	{
 		"id": "cb2f9222",
@@ -305,7 +306,7 @@
 			"TV",
 			"Bouilloire"
 		],
-		"tags": ["Marais", "République", "Studio", "Proche Métros", "Commerces"]
+		"tags": ["Marais", "République", "Studio", "Métros", "Commerces"]
 	},
 	{
 		"id": "af6d2d48",
@@ -362,7 +363,7 @@
 			"Cintres",
 			"Équipements de base"
 		],
-		"tags": ["Forêt", "Nature", "Grande maison"]
+		"tags": ["Forêt", "Nature", "Maison"]
 	},
 	{
 		"id": "ba55a0cc",
@@ -468,7 +469,7 @@
 		"rating": "2",
 		"location": "Ile de France - Paris 20e",
 		"equipments": ["Bouilloire", "Wi-fi", "Micro-Ondes"],
-		"tags": ["Vue Parc", "Métros"]
+		"tags": ["Vue Parc", "Métros", "Commerces"]
 	},
 	{
 		"id": "6ff132c6",
